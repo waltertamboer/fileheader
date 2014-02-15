@@ -13,8 +13,7 @@
     "dependencies": {
     },
     "bin": {
-        "fileheader": "./bin/fileheader",
-        "yuidoc": "./node_modules/bin/yuidoc"
+        "fileheader": "./bin/fileheader"
     },
     "directories": {
         "bin": "./bin",
@@ -28,8 +27,7 @@
     },
     "description": "A node.js application that can be used to quickly update file headers.",
     "devDependencies": {
-        "nodeunit": "*",
-        "yuidocjs": "*"
+        "nodeunit": "*"
 	},
     "scripts": {
         "test": "node ./bin/test"
