@@ -1,0 +1,13 @@
+{
+    "name": "fileheader",
+    "description": "A node.js application that can be used to quickly update file headers.",
+    "version": "1.0.0",
+    "url": "http://waltertamboer.nl/",
+    "options": {
+        "linkNatives": true,
+        "outdir": "./docs/api",
+        "paths": [
+            "./lib"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "fileheader",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Walter Tamboer",
+    "keywords": [
+        "fileheader",
+        "docblock",
+        "manage",
+        "quick",
+        "fast"
+    ],
+    "dependencies": {
+    },
+    "bin": {
+        "fileheader": "./bin/fileheader",
+        "yuidoc": "./node_modules/bin/yuidoc"
+    },
+    "directories": {
+        "bin": "./bin",
+        "test": "./test"
+    },
+    "os": ["win32"],
+    "main": "./lib/fileheader.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WalterTamboer/fileheader.git"
+    },
+    "description": "A node.js application that can be used to quickly update file headers.",
+    "devDependencies": {
+        "nodeunit": "*",
+        "yuidocjs": "*"
+	},
+    "scripts": {
+        "test": "node ./bin/test"
+    },
+    "preferGlobal": true
+}

@@ -1,0 +1,10 @@
+# This file contains the Travis CI configurations for the resolver project.
+# Support Travis! http://love.travis-ci.org/
+
+# This project is written in Node.js
+language: node_js
+
+# Test on the following versions:
+node_js:
+    - 0.10
+    - 0.11
